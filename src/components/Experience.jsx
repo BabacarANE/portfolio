@@ -1,6 +1,6 @@
 // src/components/Experience.jsx
 import { motion } from 'framer-motion'
-import Timeline from './common/Timeline'
+import Timeline from './common/TimeLine.jsx'
 import { experience } from '../data/experience'
 
 export default function Experience() {
