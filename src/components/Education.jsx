@@ -1,6 +1,6 @@
 // src/components/Education.jsx
 import { motion } from 'framer-motion'
-import Timeline from './common/Timeline'
+import Timeline from './common/TimeLine.jsx'
 import { education } from '../data/education'
 
 export default function Education() {
