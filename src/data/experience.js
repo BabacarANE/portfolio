@@ -8,6 +8,12 @@ export const experience = [
         endDate: 'Juill. 2025',
         description: 'Contrôle du respect des consignes de travail et des procédures de sécurité et d\'hygiène. Gestion des équipes et respect des protocoles de travail. Configuration des scripts XML pour le chargement dans la baseband et gestion des équipements Ericsson.',
         technologies: ['Gestion d\'équipe', 'Procédures de sécurité', 'Protocoles telecom', 'XML', 'Configuration baseband', 'Équipements Ericsson'],
+        images: [
+            '/images/telecom-1.jpg',
+            '/images/telecom-2.jpg',
+            '/images/telecom-3.jpg',
+            '/images/telecom-4.jpg'
+        ], // Plusieurs images
     },
     {
         id: 2,
@@ -17,6 +23,10 @@ export const experience = [
         endDate: 'Déc. 2024',
         description: 'Maintenance préventive et curative des équipements informatiques des clients sur site. Installation et configuration des logiciels sur les postes de travail. Diagnostic et résolution des pannes informatiques.',
         technologies: ['Maintenance informatique', 'Installation logiciels', 'Diagnostic pannes', 'Support technique'],
+        images: [
+            '/images/informatique-1.jpg',
+            '/images/informatique-2.jpg'
+        ],
     },
     {
         id: 3,
@@ -26,5 +36,8 @@ export const experience = [
         endDate: '2024',
         description: 'Conception et développement d\'un escape game interactif en ligne. Mise en place d\'un système de chat en temps réel permettant aux joueurs de collaborer pour résoudre les énigmes. Gestion complète du projet du cahier des charges au déploiement.',
         technologies: ['React', 'Node.js', 'Supabase', 'Socket.io', 'JavaScript', 'CSS'],
+        images: [
+            '/images/development-1.jpg'
+        ],
     },
 ]

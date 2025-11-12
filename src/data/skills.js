@@ -27,11 +27,19 @@ export const skillsByCategory = {
         { name: 'VS Code', level: 85 },
         { name: 'Postman', level: 75 },
         { name: 'Socket.io', level: 70 },
-
+    ],
+    maintenanceInformatique: [
+        { name: 'Installation Windows', level: 85 },
+        { name: 'Installation MacOS', level: 75 },
+        { name: 'Installation Linux', level: 80 },
+        { name: 'Diagnostic pannes matériel', level: 85 },
+        { name: 'Dépannage logiciel', level: 80 },
+        { name: 'Maintenance préventive', level: 80 },
     ],
     telecom: [
         { name: 'Équipements Ericsson', level: 75 },
         { name: 'Configuration baseband', level: 70 },
         { name: 'Protocoles telecom', level: 80 },
+        { name: 'Monshell terminal', level: 50 },
     ]
 }
