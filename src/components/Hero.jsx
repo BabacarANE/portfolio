@@ -79,7 +79,7 @@ export default function Hero() {
                         onClick={() => {
                             // Créer un lien de téléchargement temporaire
                             const link = document.createElement('a');
-                            link.href = '/documents/CV_babacarane.pdf';
+                            link.href = '/documents/cv_babacar_ane.pdf';
                             link.download = 'CV_Babacar_ANE.pdf';
                             document.body.appendChild(link);
                             link.click();
