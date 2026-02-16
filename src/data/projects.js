@@ -47,17 +47,5 @@ export const projects = [
         role: 'Développeur Frontend',
         duration: '1 mois',
         details: 'Conception et développement d\'un portfolio personnel avec design moderne, animations fluides et optimisation pour les mobiles.'
-    },
-    {
-        id: 5,
-        title: 'Système de Gestion Scolaire',
-        description: 'Application web complète pour la gestion des étudiants, cours et emplois du temps d\'un établissement scolaire.',
-        image: '/images/school-management.jpg',
-        technologies: ['React', 'Node.js', 'PostgreSQL', 'Express'],
-        liveLink: '#',
-        githubLink: '#',
-        role: 'Développeur Full-Stack',
-        duration: '4 mois',
-        details: 'Développement d\'un système de gestion scolaire avec modules d\'inscription, gestion des notes, emplois du temps et interface administrateur.'
     }
 ]

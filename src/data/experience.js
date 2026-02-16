@@ -3,7 +3,7 @@ export const experience = [
     {
         id: 1,
         company: 'Africa Mobile Network Service - DAKAR',
-        position: 'Chef d\'équipe d\'installation Telecom',
+        position: 'Technicien Telecom',
         startDate: 'Janv. 2025',
         endDate: 'Juill. 2025',
         description: 'Contrôle du respect des consignes de travail et des procédures de sécurité et d\'hygiène. Gestion des équipes et respect des protocoles de travail. Configuration des scripts XML pour le chargement dans la baseband et gestion des équipements Ericsson.',

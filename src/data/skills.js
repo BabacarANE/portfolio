@@ -1,21 +1,21 @@
 // src/data/skills.js
 export const skillsByCategory = {
     langages: [
-        { name: 'JavaScript', level: 85 },
-        { name: 'Java', level: 80 },
+        { name: 'JavaScript', level: 75 },
+        { name: 'Java', level: 50 },
         { name: 'PHP', level: 75 },
-        { name: 'Langage C', level: 70 },
+        { name: 'Langage C', level: 80 },
         { name: 'Langage C++', level: 70 },
-        { name: 'Python', level: 75 },
-        { name: 'HTML5 & CSS3', level: 80 },
+        { name: 'Python', level: 70 },
+        { name: 'HTML5 & CSS3', level: 60 },
     ],
     frameworks: [
-        { name: 'React', level: 80 },
+        { name: 'Librairie React', level: 80 },
         { name: 'Vue.js', level: 70 },
+        { name: 'Node.js', level: 70 },
         { name: 'Laravel', level: 75 },
-        { name: 'Node.js', level: 80 },
-        { name: 'Flask', level: 65 },
-        { name: 'Express.js', level: 75 },
+        { name: 'Flask', level: 50 },
+        { name: 'Django', level: 50 },
     ],
     basesDeDonnees: [
         { name: 'SQL', level: 80 },
@@ -27,6 +27,13 @@ export const skillsByCategory = {
         { name: 'VS Code', level: 85 },
         { name: 'Postman', level: 75 },
         { name: 'Socket.io', level: 70 },
+        { name: 'Tableau', level: 50 },
+        { name: 'Power BI', level: 70 },
+    ],
+    cloud: [
+        { name: 'Microsoft Azure', level: 60 },
+        { name: 'Amazon Web Services AWS', level: 45 },
+        
     ],
     maintenanceInformatique: [
         { name: 'Installation Windows', level: 85 },
