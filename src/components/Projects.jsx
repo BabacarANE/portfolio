@@ -7,7 +7,7 @@ import { projects } from '../data/projects'
 export default function Projects() {
     const [filter, setFilter] = useState('tous')
 
-    const technologies = ['tous', 'React', 'Node.js', 'Laravel', 'Vue.js', 'PostgreSQL', 'Supabase', 'Socket.io']
+    const technologies = ['tous', 'React', 'Django', 'WebSocket', 'Redis', 'Node.js', 'Laravel', 'Vue.js', 'PostgreSQL', 'Supabase', 'Socket.io']
 
     const filteredProjects = filter === 'tous'
         ? projects

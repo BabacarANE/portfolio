@@ -9,6 +9,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Certifications from "./components/Certifications.jsx";
 
 function App() {
     const [isDark, setIsDark] = useState(() => {
@@ -43,6 +44,7 @@ function App() {
                 <Skills />
                 <Experience />
                 <Education />
+                <Certifications />
                 <Contact />
             </main>
             <Footer />

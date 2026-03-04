@@ -14,8 +14,8 @@ export const skillsByCategory = {
         { name: 'Vue.js', level: 70 },
         { name: 'Node.js', level: 70 },
         { name: 'Laravel', level: 75 },
-        { name: 'Flask', level: 50 },
-        { name: 'Django', level: 50 },
+        { name: 'Flask', level: 70 },
+        { name: 'Django', level: 80 },
     ],
     basesDeDonnees: [
         { name: 'SQL', level: 80 },

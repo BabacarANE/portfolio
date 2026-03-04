@@ -73,23 +73,7 @@ export default function Hero() {
                     >
                         Me contacter
                     </Button>
-                    <Button
-                        variant="secondary"
-                        size="lg"
-                        onClick={() => {
-                            // Créer un lien de téléchargement temporaire
-                            const link = document.createElement('a');
-                            link.href = '/documents/cv_babacar_ane.pdf';
-                            link.download = 'CV_Babacar_ANE.pdf';
-                            document.body.appendChild(link);
-                            link.click();
-                            document.body.removeChild(link);
-                        }}
-                        className="flex items-center gap-2"
-                    >
-                        <Download size={20} />
-                        Télécharger CV
-                    </Button>
+
                 </motion.div>
             </motion.div>
 

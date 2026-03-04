@@ -2,11 +2,11 @@
 export const education = [
     {
         id: 1,
-        institution: 'EPSI',
+        institution: 'EPSI Paris',
         degree: 'Master 1',
         field: 'Expert en Informatique et Systèmes d\'Information',
-        year: '2025',
-        description: 'Formation en cours depuis septembre 2025',
+        year: '2025-2027',
+        description: 'Expert en Informatique et Systèmes d\'Information spécialité DEV',
     },
     {
         id: 2,
