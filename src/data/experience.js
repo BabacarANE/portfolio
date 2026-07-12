@@ -2,42 +2,28 @@
 export const experience = [
     {
         id: 1,
-        company: 'Africa Mobile Network Service - DAKAR',
-        position: 'Technicien Telecom',
-        startDate: 'Janv. 2025',
-        endDate: 'Juill. 2025',
-        description: 'Contrôle du respect des consignes de travail et des procédures de sécurité et d\'hygiène. Gestion des équipes et respect des protocoles de travail. Configuration des scripts XML pour le chargement dans la baseband et gestion des équipements Ericsson.',
-        technologies: ['Gestion d\'équipe', 'Procédures de sécurité', 'Protocoles telecom', 'XML', 'Configuration baseband', 'Équipements Ericsson'],
+        company: 'AMNSSN',
+        position: 'Technicien Informatique',
+        startDate: 'Nov. 2024',
+        endDate: 'Mai 2025',
+        description: 'Au sein du support informatique, gestion du help desk : diagnostic et résolution des incidents utilisateurs au quotidien. Construction de dashboards de suivi avec Excel/VBA, automatisant des tâches répétitives de reporting. Création de dashboards analytiques avec Power BI pour le suivi d\'indicateurs. Écriture de scripts XML pour la configuration et l\'automatisation d\'équipements télécom. Configuration de bande de base télécom directement sur le terrain.',
+        technologies: ['Help Desk', 'Excel/VBA', 'Power BI', 'XML', 'Configuration baseband', 'Équipements télécom'],
         images: [
-            '/images/telecom-1.jpg',
-            '/images/telecom-2.jpg',
             '/images/telecom-3.jpg',
             '/images/telecom-4.jpg'
-        ], // Plusieurs images
-    },
-    {
-        id: 2,
-        company: 'TMI - DAKAR',
-        position: 'Technicien Informatique',
-        startDate: 'Juill. 2024',
-        endDate: 'Déc. 2024',
-        description: 'Maintenance préventive et curative des équipements informatiques des clients sur site. Installation et configuration des logiciels sur les postes de travail. Diagnostic et résolution des pannes informatiques.',
-        technologies: ['Maintenance informatique', 'Installation logiciels', 'Diagnostic pannes', 'Support technique'],
-        images: [
-            '/images/informatique-1.jpg',
-            '/images/informatique-2.jpg'
         ],
     },
     {
-        id: 3,
-        company: 'Workshop',
-        position: 'Développeur Full-Stack',
-        startDate: '2024',
-        endDate: '2024',
-        description: 'Conception et développement d\'un escape game interactif en ligne. Mise en place d\'un système de chat en temps réel permettant aux joueurs de collaborer pour résoudre les énigmes. Gestion complète du projet du cahier des charges au déploiement.',
-        technologies: ['React', 'Node.js', 'Supabase', 'Socket.io', 'JavaScript', 'CSS'],
+        id: 2,
+        company: 'TMI',
+        position: 'Support Technique Help Desk',
+        startDate: 'Avr. 2023',
+        endDate: 'Mai 2024',
+        description: 'En tant que stagiaire puis technicien indépendant, support technique et maintenance matérielle pour une clientèle variée. Diagnostic et réparation de pannes matérielles sur ordinateurs et imprimantes. Remplacement de composants défectueux (RAM, disque dur, écran, clavier, batterie). Installation de systèmes d\'exploitation et logiciels sous licence (Windows, Linux, Ubuntu, macOS), y compris création de supports d\'installation bootables. Support client direct et interventions ponctuelles en électronique.',
+        technologies: ['Maintenance informatique', 'Installation multi-OS', 'Diagnostic pannes', 'Support client', 'Électronique'],
         images: [
-            '/images/development-1.jpg'
+            '/images/informatique-1.jpg',
+            '/images/informatique-2.jpg'
         ],
     },
 ]

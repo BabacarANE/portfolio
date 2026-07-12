@@ -7,8 +7,8 @@ export const SOCIAL_LINKS = {
 }
 
 export const PERSONAL_INFO = {
-    phone: '+33767107473', // Remplacez par votre numéro
-    address: 'Paris, France', // Remplacez par votre ville
+    phone: '+33753239670', 
+    address: 'Paris, France', 
 }
 
 export const NAV_LINKS = [

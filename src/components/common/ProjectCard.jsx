@@ -43,15 +43,17 @@ export default function ProjectCard({ project }) {
 
                 {/* Liens */}
                 <div className="flex gap-3">
-                    <a
-                        href={project.liveLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
-                    >
-                        <ExternalLink size={16} />
-                        Voir le projet
-                    </a>
+                    {project.liveLink && (
+                        <a
+                            href={project.liveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                        >
+                            <ExternalLink size={16} />
+                            Voir le projet
+                        </a>
+                    )}
                     <a
                         href={project.githubLink}
                         target="_blank"
