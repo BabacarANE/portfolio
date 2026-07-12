@@ -21,7 +21,7 @@ export const projects = [
         liveLink: null,
         githubLink: 'https://github.com/BabacarANE/SmartMarket.git',
         role: 'Data Engineer / ML',
-        duration: '—',
+        duration: ' 3 semaines',
         details: 'Pipeline complet : collecte automatique des offres d\'emploi (APIs France Travail & Adzuna) → nettoyage et transformation dbt → entraînement d\'un modèle LightGBM pour la prédiction de salaires → exposition via API REST et dashboard interactif. 2 DAGs Airflow, détection de data drift avec Evidently AI, tracking MLflow, 71 tests unitaires, CI/CD GitHub Actions.'
     },
     {
@@ -33,7 +33,7 @@ export const projects = [
         liveLink: null,
         githubLink: 'https://github.com/BabacarANE/futureKAWA.git',
         role: 'Développeur Full-Stack / IoT',
-        duration: 'Projet MSPR',
+        duration: '2 mois',
         details: 'Architecture microservices avec une API par pays et un agrégateur central. Capteurs IoT (ESP8266 + DHT22) publiant température/humidité en temps réel via MQTT. Système d\'alertes automatiques en cas de dépassement de seuils. Dashboard React/TypeScript avec authentification JWT par rôle. Pipeline CI/CD Jenkins.'
     },
     {
@@ -45,7 +45,7 @@ export const projects = [
         liveLink: null,
         githubLink: 'https://github.com/BabacarANE/MSPR.git',
         role: 'Data Analyst',
-        duration: 'Projet MSPR',
+        duration: '2 mois',
         details: 'Apprentissage supervisé (classification binaire & multiclasse) sur 648 communes × 2 années (2017/2022), 1 296 observations, 5 indicateurs socio-économiques. Variable cible : bloc vainqueur (Droite/Centre/Gauche). Projection 2027 via modèle socio-économique pur.'
     },
 
@@ -83,7 +83,7 @@ export const projects = [
         liveLink: null,
         githubLink: 'https://github.com/BabacarANE/portfolio.git',
         role: 'Développeur Frontend',
-        duration: '1 mois',
+        duration: '1 semaine',
         details: 'Conception et développement d\'un portfolio personnel avec design moderne, animations fluides et optimisation pour les mobiles.'
     },
     {
